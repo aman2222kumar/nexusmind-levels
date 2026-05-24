@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "worlds": [
     {
       "world": 1,
@@ -232,21 +232,21 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
-              "y": 0,
+              "x": 2,
+              "y": 2,
               "type": "Source",
-              "dir": "Up",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 2,
-              "y": 2,
+              "x": 0,
+              "y": 0,
               "type": "Target",
               "movable": false
             },
             {
               "x": 1,
-              "y": 0,
+              "y": 1,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -264,21 +264,21 @@
           "tiles": [
             {
               "x": 2,
-              "y": 0,
+              "y": 2,
               "type": "Source",
-              "dir": "Up",
+              "dir": "Left",
               "movable": false
             },
             {
               "x": 0,
-              "y": 2,
+              "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 1,
+              "x": 2,
               "y": 0,
-              "type": "Mirror135",
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -294,22 +294,22 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 2,
               "y": 2,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 1,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 1,
+              "x": 2,
               "y": 1,
-              "type": "Mirror135",
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -326,21 +326,21 @@
           "tiles": [
             {
               "x": 0,
-              "y": 3,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 3,
-              "y": 0,
+              "y": 3,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 3,
-              "y": 2,
-              "type": "Mirror135",
+              "x": 1,
+              "y": 0,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -357,21 +357,21 @@
           "tiles": [
             {
               "x": 0,
-              "y": 3,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 3,
-              "y": 0,
+              "y": 3,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 3,
-              "y": 1,
-              "type": "Mirror135",
+              "x": 2,
+              "y": 0,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -388,21 +388,21 @@
           "tiles": [
             {
               "x": 0,
-              "y": 3,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 3,
-              "y": 0,
+              "y": 3,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 2,
-              "y": 2,
-              "type": "Mirror135",
+              "x": 1,
+              "y": 1,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -419,21 +419,21 @@
           "tiles": [
             {
               "x": 0,
-              "y": 3,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 3,
-              "y": 0,
+              "y": 3,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 1,
-              "y": 0,
-              "type": "Mirror135",
+              "x": 2,
+              "y": 1,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -450,21 +450,21 @@
           "tiles": [
             {
               "x": 0,
-              "y": 3,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 3,
-              "y": 0,
+              "y": 3,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 0,
-              "y": 0,
-              "type": "Mirror135",
+              "x": 3,
+              "y": 1,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -646,15 +646,15 @@
             },
             {
               "x": 1,
-              "y": 1,
-              "type": "Mirror45",
+              "y": 2,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 3,
-              "y": 1,
-              "type": "Mirror135",
+              "y": 2,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -666,32 +666,25 @@
           "name": "Level 21",
           "gridW": 5,
           "gridH": 5,
-          "optimalMoves": 2,
+          "optimalMoves": 1,
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 4,
               "y": 4,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Down",
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 4,
-              "y": 2,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 2,
-              "y": 0,
+              "x": 3,
+              "y": 4,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -704,32 +697,25 @@
           "name": "Level 22",
           "gridW": 5,
           "gridH": 5,
-          "optimalMoves": 2,
+          "optimalMoves": 1,
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 4,
               "y": 4,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Down",
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 4,
-              "y": 3,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 1,
-              "y": 0,
+              "x": 2,
+              "y": 4,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -742,32 +728,25 @@
           "name": "Level 23",
           "gridW": 5,
           "gridH": 5,
-          "optimalMoves": 2,
+          "optimalMoves": 1,
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 4,
               "y": 4,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Down",
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 3,
-              "y": 1,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
               "x": 1,
-              "y": 1,
+              "y": 3,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -780,32 +759,25 @@
           "name": "Level 24",
           "gridW": 5,
           "gridH": 5,
-          "optimalMoves": 2,
+          "optimalMoves": 1,
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 4,
               "y": 4,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Down",
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 2,
+              "x": 3,
               "y": 3,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 0,
-              "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -818,32 +790,25 @@
           "name": "Level 25",
           "gridW": 5,
           "gridH": 5,
-          "optimalMoves": 2,
+          "optimalMoves": 1,
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 4,
               "y": 4,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Down",
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 4,
-              "y": 1,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
               "x": 2,
-              "y": 0,
+              "y": 2,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -873,14 +838,14 @@
               "movable": false
             },
             {
-              "x": 3,
+              "x": 4,
               "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
+              "x": 2,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
@@ -912,14 +877,14 @@
             },
             {
               "x": 4,
-              "y": 1,
+              "y": 3,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -936,29 +901,29 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 4,
               "y": 4,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 3,
-              "y": 3,
-              "type": "Mirror135",
+              "x": 0,
+              "y": 2,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 1,
-              "type": "Mirror45",
+              "x": 2,
+              "y": 4,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -975,28 +940,28 @@
           "tiles": [
             {
               "x": 0,
-              "y": 4,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 4,
-              "y": 0,
+              "y": 4,
               "type": "Target",
               "movable": false
             },
             {
               "x": 1,
-              "y": 2,
-              "type": "Mirror135",
+              "y": 0,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 3,
-              "y": 2,
-              "type": "Mirror45",
+              "x": 4,
+              "y": 1,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1012,29 +977,29 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 4,
               "y": 4,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Down",
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 0,
-              "y": 2,
-              "type": "Mirror135",
+              "x": 3,
+              "y": 4,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 2,
-              "type": "Mirror45",
+              "x": 0,
+              "y": 3,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1095,29 +1060,29 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 4,
               "y": 4,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 3,
-              "y": 1,
-              "type": "Mirror135",
+              "x": 0,
+              "y": 3,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 2,
+              "y": 1,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
@@ -1141,35 +1106,35 @@
           "tiles": [
             {
               "x": 0,
-              "y": 4,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 4,
-              "y": 0,
+              "y": 4,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 4,
-              "y": 2,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 2,
+              "x": 1,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 0,
+              "x": 4,
               "y": 2,
               "type": "Mirror135",
+              "movable": true,
+              "rotatable": true
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -1185,36 +1150,36 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 4,
               "y": 4,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Down",
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
               "x": 3,
-              "y": 3,
-              "type": "Mirror135",
+              "y": 4,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 0,
-              "y": 3,
-              "type": "Mirror45",
+              "y": 2,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 3,
               "y": 0,
-              "type": "Mirror135",
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -1244,6 +1209,13 @@
             },
             {
               "x": 2,
+              "y": 4,
+              "type": "Mirror45",
+              "movable": true,
+              "rotatable": true
+            },
+            {
+              "x": 4,
               "y": 2,
               "type": "Mirror135",
               "movable": true,
@@ -1252,13 +1224,6 @@
             {
               "x": 0,
               "y": 0,
-              "type": "Mirror45",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 4,
-              "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -1320,34 +1285,34 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 5,
               "y": 5,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 5,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 5,
-              "y": 4,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 1,
-              "y": 0,
+              "x": 0,
+              "y": 3,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 3,
+              "y": 5,
+              "type": "Mirror135",
+              "movable": true,
+              "rotatable": true
+            },
+            {
+              "x": 0,
               "y": 1,
               "type": "Mirror135",
               "movable": true,
@@ -1366,35 +1331,35 @@
           "tiles": [
             {
               "x": 0,
-              "y": 5,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 5,
-              "y": 0,
+              "y": 5,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 5,
-              "y": 2,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 3,
+              "x": 1,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 4,
+              "x": 5,
               "y": 3,
               "type": "Mirror135",
+              "movable": true,
+              "rotatable": true
+            },
+            {
+              "x": 1,
+              "y": 5,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -1410,35 +1375,35 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
-              "y": 5,
+              "x": 5,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
-              "x": 5,
-              "y": 0,
+              "x": 0,
+              "y": 5,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 5,
-              "y": 3,
+              "x": 4,
+              "y": 0,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 4,
-              "y": 0,
+              "x": 0,
+              "y": 3,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 2,
+              "x": 4,
+              "y": 5,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -1469,21 +1434,21 @@
             },
             {
               "x": 5,
-              "y": 1,
+              "y": 4,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 4,
-              "y": 4,
+              "x": 3,
+              "y": 1,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -1500,36 +1465,36 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 5,
               "y": 5,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 5,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 5,
-              "y": 4,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 1,
-              "y": 4,
+              "x": 0,
+              "y": 2,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 0,
+              "x": 2,
+              "y": 5,
               "type": "Mirror135",
+              "movable": true,
+              "rotatable": true
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -1546,23 +1511,16 @@
           "tiles": [
             {
               "x": 0,
-              "y": 5,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 5,
-              "y": 0,
+              "y": 5,
               "type": "Target",
               "movable": false
-            },
-            {
-              "x": 3,
-              "y": 3,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
             },
             {
               "x": 3,
@@ -1575,6 +1533,13 @@
               "x": 5,
               "y": 2,
               "type": "Mirror135",
+              "movable": true,
+              "rotatable": true
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -1590,35 +1555,35 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
-              "y": 5,
+              "x": 5,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
-              "x": 5,
-              "y": 0,
+              "x": 0,
+              "y": 5,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 5,
-              "y": 2,
+              "x": 4,
+              "y": 0,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 1,
+              "x": 0,
+              "y": 4,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 3,
-              "y": 4,
+              "x": 2,
+              "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -1680,6 +1645,51 @@
           "timeLimit": 0,
           "tiles": [
             {
+              "x": 5,
+              "y": 5,
+              "type": "Source",
+              "dir": "Left",
+              "movable": false
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "type": "Target",
+              "movable": false
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "type": "Mirror45",
+              "movable": true,
+              "rotatable": true
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "type": "Mirror135",
+              "movable": true,
+              "rotatable": true
+            },
+            {
+              "x": 3,
+              "y": 0,
+              "type": "Mirror45",
+              "movable": true,
+              "rotatable": true
+            }
+          ]
+        },
+        {
+          "world": 1,
+          "level": 46,
+          "name": "Level 46",
+          "gridW": 6,
+          "gridH": 6,
+          "optimalMoves": 3,
+          "timeLimit": 0,
+          "tiles": [
+            {
               "x": 0,
               "y": 5,
               "type": "Source",
@@ -1717,51 +1727,6 @@
         },
         {
           "world": 1,
-          "level": 46,
-          "name": "Level 46",
-          "gridW": 6,
-          "gridH": 6,
-          "optimalMoves": 3,
-          "timeLimit": 0,
-          "tiles": [
-            {
-              "x": 0,
-              "y": 5,
-              "type": "Source",
-              "dir": "Right",
-              "movable": false
-            },
-            {
-              "x": 5,
-              "y": 0,
-              "type": "Target",
-              "movable": false
-            },
-            {
-              "x": 5,
-              "y": 4,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 3,
-              "y": 4,
-              "type": "Mirror45",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 3,
-              "y": 0,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            }
-          ]
-        },
-        {
-          "world": 1,
           "level": 47,
           "name": "Level 47",
           "gridW": 6,
@@ -1770,28 +1735,21 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 5,
               "y": 5,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 5,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 5,
+              "x": 0,
               "y": 1,
-              "type": "Mirror135",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 1,
-              "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -1800,6 +1758,13 @@
               "x": 2,
               "y": 4,
               "type": "Mirror135",
+              "movable": true,
+              "rotatable": true
+            },
+            {
+              "x": 0,
+              "y": 3,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -1816,16 +1781,23 @@
           "tiles": [
             {
               "x": 0,
-              "y": 5,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 5,
-              "y": 0,
+              "y": 5,
               "type": "Target",
               "movable": false
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "type": "Mirror45",
+              "movable": true,
+              "rotatable": true
             },
             {
               "x": 5,
@@ -1836,13 +1808,6 @@
             },
             {
               "x": 4,
-              "y": 3,
-              "type": "Mirror45",
-              "movable": true,
-              "rotatable": true
-            },
-            {
-              "x": 1,
               "y": 1,
               "type": "Mirror135",
               "movable": true,
@@ -1905,36 +1870,36 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 5,
               "y": 5,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 5,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 5,
-              "y": 4,
-              "type": "Mirror135",
+              "x": 0,
+              "y": 3,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 3,
               "y": 1,
-              "type": "Mirror45",
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 1,
               "y": 2,
-              "type": "Mirror135",
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
