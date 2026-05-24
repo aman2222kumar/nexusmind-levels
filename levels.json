@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "worlds": [
     {
       "world": 1,
@@ -59,8 +59,8 @@
               "movable": false
             },
             {
-              "x": 2,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -90,7 +90,7 @@
               "movable": false
             },
             {
-              "x": 2,
+              "x": 0,
               "y": 1,
               "type": "Mirror135",
               "movable": true,
@@ -121,8 +121,8 @@
               "movable": false
             },
             {
-              "x": 2,
-              "y": 1,
+              "x": 0,
+              "y": 0,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -152,7 +152,7 @@
               "movable": false
             },
             {
-              "x": 2,
+              "x": 1,
               "y": 1,
               "type": "Mirror135",
               "movable": true,
@@ -170,22 +170,22 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 2,
               "y": 2,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 2,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 2,
+              "x": 0,
               "y": 1,
-              "type": "Mirror135",
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -201,22 +201,22 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
+              "x": 2,
               "y": 2,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Left",
               "movable": false
             },
             {
-              "x": 2,
+              "x": 0,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 2,
-              "y": 1,
-              "type": "Mirror135",
+              "x": 1,
+              "y": 0,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -233,21 +233,21 @@
           "tiles": [
             {
               "x": 0,
-              "y": 2,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
               "x": 2,
-              "y": 0,
+              "y": 2,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 2,
-              "y": 1,
-              "type": "Mirror135",
+              "x": 1,
+              "y": 0,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             }
@@ -263,21 +263,21 @@
           "timeLimit": 0,
           "tiles": [
             {
-              "x": 0,
-              "y": 2,
+              "x": 2,
+              "y": 0,
               "type": "Source",
-              "dir": "Right",
+              "dir": "Up",
               "movable": false
             },
             {
-              "x": 2,
-              "y": 0,
+              "x": 0,
+              "y": 2,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 2,
-              "y": 1,
+              "x": 1,
+              "y": 0,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -301,13 +301,13 @@
               "movable": false
             },
             {
-              "x": 2,
+              "x": 1,
               "y": 0,
               "type": "Target",
               "movable": false
             },
             {
-              "x": 2,
+              "x": 1,
               "y": 1,
               "type": "Mirror135",
               "movable": true,
@@ -370,7 +370,7 @@
             },
             {
               "x": 3,
-              "y": 2,
+              "y": 1,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -400,7 +400,7 @@
               "movable": false
             },
             {
-              "x": 3,
+              "x": 2,
               "y": 2,
               "type": "Mirror135",
               "movable": true,
@@ -431,8 +431,8 @@
               "movable": false
             },
             {
-              "x": 3,
-              "y": 2,
+              "x": 1,
+              "y": 0,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -462,8 +462,8 @@
               "movable": false
             },
             {
-              "x": 3,
-              "y": 2,
+              "x": 0,
+              "y": 0,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -500,7 +500,7 @@
               "rotatable": true
             },
             {
-              "x": 2,
+              "x": 1,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
@@ -531,7 +531,7 @@
               "movable": false
             },
             {
-              "x": 3,
+              "x": 2,
               "y": 2,
               "type": "Mirror135",
               "movable": true,
@@ -540,7 +540,7 @@
             {
               "x": 2,
               "y": 0,
-              "type": "Mirror45",
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -569,16 +569,16 @@
               "movable": false
             },
             {
-              "x": 3,
-              "y": 2,
+              "x": 1,
+              "y": 1,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 0,
-              "type": "Mirror45",
+              "x": 3,
+              "y": 1,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -607,7 +607,7 @@
               "movable": false
             },
             {
-              "x": 3,
+              "x": 0,
               "y": 2,
               "type": "Mirror135",
               "movable": true,
@@ -615,7 +615,7 @@
             },
             {
               "x": 2,
-              "y": 0,
+              "y": 2,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -645,16 +645,16 @@
               "movable": false
             },
             {
-              "x": 3,
-              "y": 2,
-              "type": "Mirror135",
+              "x": 1,
+              "y": 1,
+              "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 0,
-              "type": "Mirror45",
+              "x": 3,
+              "y": 1,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -722,13 +722,13 @@
             },
             {
               "x": 4,
-              "y": 2,
+              "y": 3,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
+              "x": 1,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
@@ -759,15 +759,15 @@
               "movable": false
             },
             {
-              "x": 4,
-              "y": 2,
+              "x": 3,
+              "y": 1,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 0,
+              "x": 1,
+              "y": 1,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -797,14 +797,14 @@
               "movable": false
             },
             {
-              "x": 4,
-              "y": 2,
+              "x": 2,
+              "y": 3,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
+              "x": 0,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
@@ -836,7 +836,7 @@
             },
             {
               "x": 4,
-              "y": 2,
+              "y": 1,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -873,14 +873,14 @@
               "movable": false
             },
             {
-              "x": 4,
+              "x": 3,
               "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
+              "x": 1,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
@@ -912,14 +912,14 @@
             },
             {
               "x": 4,
-              "y": 2,
+              "y": 1,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 2,
-              "y": 0,
+              "y": 1,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -949,15 +949,15 @@
               "movable": false
             },
             {
-              "x": 4,
-              "y": 2,
+              "x": 3,
+              "y": 3,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 0,
+              "x": 1,
+              "y": 1,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -987,15 +987,15 @@
               "movable": false
             },
             {
-              "x": 4,
+              "x": 1,
               "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 0,
+              "x": 3,
+              "y": 2,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -1025,7 +1025,7 @@
               "movable": false
             },
             {
-              "x": 4,
+              "x": 0,
               "y": 2,
               "type": "Mirror135",
               "movable": true,
@@ -1033,7 +1033,7 @@
             },
             {
               "x": 2,
-              "y": 0,
+              "y": 2,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
@@ -1064,22 +1064,22 @@
             },
             {
               "x": 4,
-              "y": 2,
+              "y": 3,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 2,
-              "y": 0,
+              "y": 3,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 2,
-              "type": "Mirror45",
+              "x": 2,
+              "y": 0,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1108,23 +1108,23 @@
               "movable": false
             },
             {
-              "x": 4,
-              "y": 2,
+              "x": 3,
+              "y": 1,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 0,
+              "x": 1,
+              "y": 3,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 2,
-              "type": "Mirror45",
+              "x": 0,
+              "y": 1,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1167,9 +1167,9 @@
               "rotatable": true
             },
             {
-              "x": 1,
+              "x": 0,
               "y": 2,
-              "type": "Mirror45",
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1198,23 +1198,23 @@
               "movable": false
             },
             {
-              "x": 4,
-              "y": 2,
+              "x": 3,
+              "y": 3,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
-              "y": 0,
+              "x": 0,
+              "y": 3,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 2,
-              "type": "Mirror45",
+              "x": 3,
+              "y": 0,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1243,23 +1243,23 @@
               "movable": false
             },
             {
-              "x": 4,
+              "x": 2,
               "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 2,
+              "x": 0,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
+              "x": 4,
               "y": 2,
-              "type": "Mirror45",
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1295,16 +1295,16 @@
               "rotatable": true
             },
             {
-              "x": 3,
+              "x": 2,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 3,
+              "y": 2,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1334,22 +1334,22 @@
             },
             {
               "x": 5,
-              "y": 3,
+              "y": 4,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 3,
+              "x": 1,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 3,
+              "y": 1,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1379,7 +1379,7 @@
             },
             {
               "x": 5,
-              "y": 3,
+              "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
@@ -1392,9 +1392,9 @@
               "rotatable": true
             },
             {
-              "x": 1,
+              "x": 4,
               "y": 3,
-              "type": "Mirror45",
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1430,7 +1430,7 @@
               "rotatable": true
             },
             {
-              "x": 3,
+              "x": 4,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
@@ -1438,8 +1438,8 @@
             },
             {
               "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "y": 2,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1469,22 +1469,22 @@
             },
             {
               "x": 5,
-              "y": 3,
+              "y": 1,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 3,
-              "y": 0,
+              "x": 2,
+              "y": 1,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 4,
+              "y": 4,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1514,22 +1514,22 @@
             },
             {
               "x": 5,
-              "y": 3,
+              "y": 4,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 3,
-              "y": 0,
+              "x": 1,
+              "y": 4,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "y": 0,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1558,7 +1558,7 @@
               "movable": false
             },
             {
-              "x": 5,
+              "x": 3,
               "y": 3,
               "type": "Mirror135",
               "movable": true,
@@ -1572,9 +1572,9 @@
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 5,
+              "y": 2,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1604,22 +1604,22 @@
             },
             {
               "x": 5,
-              "y": 3,
+              "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 3,
-              "y": 0,
+              "x": 1,
+              "y": 1,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 3,
+              "y": 4,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1655,16 +1655,16 @@
               "rotatable": true
             },
             {
-              "x": 3,
-              "y": 0,
+              "x": 2,
+              "y": 3,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 2,
+              "y": 0,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1693,14 +1693,14 @@
               "movable": false
             },
             {
-              "x": 5,
-              "y": 3,
+              "x": 4,
+              "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 3,
+              "x": 4,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
@@ -1709,7 +1709,7 @@
             {
               "x": 1,
               "y": 3,
-              "type": "Mirror45",
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1739,22 +1739,22 @@
             },
             {
               "x": 5,
-              "y": 3,
+              "y": 4,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 3,
-              "y": 0,
+              "y": 4,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 3,
+              "y": 0,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1784,22 +1784,22 @@
             },
             {
               "x": 5,
-              "y": 3,
+              "y": 1,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 3,
+              "x": 1,
               "y": 0,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 2,
+              "y": 4,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1835,16 +1835,16 @@
               "rotatable": true
             },
             {
-              "x": 3,
-              "y": 0,
+              "x": 4,
+              "y": 3,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "y": 1,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1874,22 +1874,22 @@
             },
             {
               "x": 5,
-              "y": 3,
+              "y": 2,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 3,
-              "y": 0,
+              "x": 2,
+              "y": 2,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
-              "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "x": 4,
+              "y": 1,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
@@ -1919,22 +1919,22 @@
             },
             {
               "x": 5,
-              "y": 3,
+              "y": 4,
               "type": "Mirror135",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 3,
-              "y": 0,
+              "y": 1,
               "type": "Mirror45",
               "movable": true,
               "rotatable": true
             },
             {
               "x": 1,
-              "y": 3,
-              "type": "Mirror45",
+              "y": 2,
+              "type": "Mirror135",
               "movable": true,
               "rotatable": true
             }
